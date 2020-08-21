@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.scss"],"sourcesContent":["//настройка сети\r\n@import 'grid';\r\n// normalize\r\n@import 'reset';\r\n\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\n*, *::before, *::after {\r\n  box-sizing: inherit;\r\n}\r\n\r\n// Header\r\n\r\n@import 'blocks/navbar'"],"file":"style.css"}
