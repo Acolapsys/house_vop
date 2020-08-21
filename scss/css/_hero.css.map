@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_hero.scss"],"sourcesContent":[".hero {\r\n    background: url(\"../img/main_background.jpg\") no-repeat center cover;\r\n    height: 300px;\r\n}"],"file":"_hero.css"}

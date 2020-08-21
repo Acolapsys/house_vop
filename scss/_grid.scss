@@ -1,4 +1,12 @@
+html {
+    box-sizing: border-box;
+  }
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
 .container {
-    min-width: 1110px;
+    max-width: 1110px;
     margin: auto;
 }

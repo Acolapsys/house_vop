@@ -1,14 +1,19 @@
-//настройка сети
-@import 'grid';
+//настройка сетки
+@import "grid";
 
-html {
-  box-sizing: border-box;
-}
+//настройка шрифтов
+@import "fonts";
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
+//настройка цветов
+@import "colors";
+
+//настройка шрифтов
+@import "interface";
 
 // Header
 
-@import 'blocks/navbar'
+@import "blocks/navbar";
+
+//hero
+
+@import "blocks/hero";

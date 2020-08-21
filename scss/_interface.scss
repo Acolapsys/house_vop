@@ -1,0 +1,9 @@
+body {
+    font-family: Raleway, sans-serif;
+    color: $text-color;
+}
+
+@mixin body-font {
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+}
