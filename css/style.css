@@ -8,7 +8,7 @@ html {
 
 .container {
   max-width: 1110px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -27,18 +27,22 @@ html {
 body {
   font-family: Raleway, sans-serif;
   color: white;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbar-wrap {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 30px;
-  background-color: #000;
   justify-content: space-between;
-}
-
-.logo {
-  margin-top: 30px;
 }
 
 .logo__text {
@@ -60,8 +64,6 @@ body {
 .menu__list {
   margin: 0;
   display: flex;
-  align-items: flex-end;
-  text-align: right;
 }
 
 .menu__item {
@@ -80,8 +82,61 @@ body {
 }
 
 .hero {
-  background: url("../img/main_background.jpg") no-repeat center cover;
-  height: 300px;
+  background: url("../img/background.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 296px;
+  width: 582px;
+  height: 470px;
+  margin-bottom: 74px;
+}
+
+.info h1.info__title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #D4C17F;
+  margin: 0;
+}
+
+.info__ico {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 50%;
+}
+
+.info__footer {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.info__footer .address__logo {
+  padding-right: 15px;
+}
+
+.info__footer .address__desc {
+  padding-right: 100px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.info__footer .phone__logo {
+  padding-right: 15px;
+}
+
+.info__footer .phone__num {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
