@@ -1,0 +1,56 @@
+.cta {
+    background: url(../img/cta.jpg);
+    padding-top: 180px;
+    padding-bottom: 180px;
+    &__cta {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+
+        &__text {
+            width: 535px;
+            margin-right: 35px;
+            .title {
+                @include title-font;
+                margin-bottom: 50px;
+            }
+            span {
+                @include body-font;
+            }
+        }
+        &__form {
+            .form__table {
+                display: grid;
+                grid-template: 50px 50px / 255px 255px;
+                grid-column-gap: 30px;
+                grid-row-gap: 35px;
+
+            }
+            
+
+
+        }
+    }
+}
+.form {  
+    input {
+        background: rgba($color: #ffffff, $alpha: 0.2);      
+        width: 255px;
+        height: 50px;
+        text-align: center;
+        color: white;
+    }
+    input::-webkit-input-placeholder { 
+        color: white;
+       
+    }
+    &__submit {
+        background: #D4C17F;
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 27px;
+
+    }
+}

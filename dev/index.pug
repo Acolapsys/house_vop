@@ -32,7 +32,7 @@ html(lang="ru")
                 .container
                     .hero__info.info
                         h1.info__title Жилой комплекс в историческом центре
-                        .info__ico
+                        .info__ico                            
                             img(src="../img/mouse.svg", alt="Mouse logo")
                         .info__footer
                           
@@ -41,4 +41,71 @@ html(lang="ru")
                         
                             img.phone__logo(src="../img/phone-call.svg", alt="") 
                             a.phone__num(href="tel:88121234567") 8 (812) 123-45-67
+            
+            .testimonials
+                .container
+                    .testimonials__block.testimonial
+                        ul.testimonial__unit
+                            li.testimonial__img
+                                img.testimonial__img(src="../img/bench.svg", alt="bench")
+                            li.testimonial__desc Рядом исторические<br> парки и скверы
+                        ul.testimonial__unit
+                            li.testimonial__img
+                                img.testimonial__img(src="../img/building.svg", alt="building")
+                            li.testimonial__desc Полностью<br> обустроенный
+                        ul.testimonial__unit
+                            li.testimonial__img
+                                img.testimonial__img(src="../img/fountain.svg", alt="fountain")
+                            li.testimonial__desc 10 фонтанов<br> на территории
+                        ul.testimonial__unit
+                            li.testimonial__img
+                                img.testimonial__img(src="../img/bicycle.svg", alt="bicycle")
+                            li.testimonial__desc 6 км<br> велодорожек
+                
+            .appartments 
+                .container
+                    .appartments__title Наши квартиры
+                    .appartments__items
+                        .appartments__item.appartment
+                            img.appartment__img(src="img/appartment3.jpg", alt="Лофт — 3 этажа")
+                            .appartment__text Лофт — 3 этажа
+                        .appartments__item.appartment
+                            img.appartment__img(src="img/appartment4.jpg", alt="Лофт — 2 этажа")
+                            .appartment__text Лофт — 2 этажа
+                        .appartments__item.appartment
+                            img.appartment__img(src="img/appartment3.jpg", alt="Лофт — 3 этажа")
+                            .appartment__text Лофт — 3 этажа
+                        .appartments__item.appartment
+                            img.appartment__img(src="img/appartment4.jpg", alt="Лофт — 2 этажа")
+                            .appartment__text Лофт — 2 этажа
+
+            .cta
+                .container
+                    
+                    .cta__cta                        
+                        .cta__cta__text
+                            .title Хотите посмотреть?
+                            span.cta_desc Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+                        .cta__cta__form.form
+                            form(action="#!")
+                                .form__table
+                                    
+                                    div.form__name
+                                        input(type="text" id="name" name="name" placeholder="Ваше имя")
+                                    div.form__phone
+                                        input(type="text" id="phone" name="phone" placeholder="Ваш телефон").form__phone
+                                    div.form__text
+                                        label(for="submit") *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+                                    div.form__submit
+                                        input(type="submit" id="submit" value="Посмотреть район")
+
+
+                        
+                        
+                
+
+                
+
+
+                
 

@@ -1,0 +1,23 @@
+.testimonials {
+    margin-bottom: 120px;
+}
+.testimonial {
+    display: flex;
+    justify-content: center;
+    &__unit {
+        margin-right: 70px;
+        padding-left: 0;
+    }
+    &__img {
+        margin-bottom: 53px;
+        list-style: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__desc {
+        list-style: none;
+        text-align: center;
+    }
+}
+

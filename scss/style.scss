@@ -7,7 +7,7 @@
 //настройка цветов
 @import "colors";
 
-//настройка шрифтов
+//настройка база
 @import "interface";
 
 // Header
@@ -17,3 +17,15 @@
 //hero
 
 @import "blocks/hero";
+
+//testimonials
+
+@import "blocks/testimonials";
+
+//appartments
+
+@import "blocks/appartments";
+
+//cta
+
+@import "blocks/cta";

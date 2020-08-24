@@ -28,6 +28,7 @@ body {
   font-family: Raleway, sans-serif;
   color: white;
   margin: 0;
+  background: #242B33;
 }
 
 .navbar {
@@ -87,6 +88,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .info {
@@ -137,6 +139,116 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: white;
+}
+
+.testimonials {
+  margin-bottom: 120px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial__unit {
+  margin-right: 70px;
+  padding-left: 0;
+}
+
+.testimonial__img {
+  margin-bottom: 53px;
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial__desc {
+  list-style: none;
+  text-align: center;
+}
+
+.appartments__title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
+  margin-bottom: 100px;
+}
+
+.appartments__items {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.appartment {
+  position: relative;
+}
+
+.appartment__text {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.cta {
+  background: url(../img/cta.jpg);
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.cta__cta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cta__cta__text {
+  width: 535px;
+  margin-right: 35px;
+}
+
+.cta__cta__text .title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
+  margin-bottom: 50px;
+}
+
+.cta__cta__text span {
+  font-family: Raleway, sans-serif;
+  color: #ffffff;
+}
+
+.cta__cta__form .form__table {
+  display: grid;
+  grid-template: 50px 50px / 255px 255px;
+  grid-column-gap: 30px;
+  grid-row-gap: 35px;
+}
+
+.form input {
+  background: rgba(255, 255, 255, 0.2);
+  width: 255px;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.form__submit {
+  background: #D4C17F;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
 }
 
 /*# sourceMappingURL=style.css.map */
